@@ -16,7 +16,7 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Constants
 IMAGE_DIR = Path(data_path) / "Filtered"
-TAGS = ["traditional house", "Bangalows", "Vehicle", "Special order", "Sprouts", "Boat"]
+TAGS = ["Malagasy Traditional House", "Palm-Bangalows", "Cars", "Church", "House","Special Order", "Cart","Bullock Cart", "Boat"]
 
 def password_gate():
     """Simple password authentication gate"""
